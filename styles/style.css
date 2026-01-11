@@ -19,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 0px 16px 0px; 
-    border: 1px solid red;  
+    /* border: 1px solid red;   */
 }
 
 .navigation img{
@@ -50,4 +50,75 @@
 .btn:hover{
     background-color: #1404a0;
     cursor: pointer;
+}
+
+/* start Banner Section */
+#banner{
+    background: url("/assets/hero-bg.png") no-repeat center center;
+    width: 100%;
+    height: 674px;
+    background-size: cover;
+}
+#banner .banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.banner-container .early-access-btn{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 400px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 25px;
+}
+.early-access-btn:hover{
+    background-color: #1404a0;
+    color: white;
+    cursor: pointer;
+}
+.banner-container h1{
+    font-size: 48px;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.double-color{
+    color: #469165;
+}
+.banner-container p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400px;
+    line-height: 35px;
+    margin-bottom: 32px;
+}
+.banner-container .banner-btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.banner-lft-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-btn-right{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+.banner-btn-right:hover{
+    border: 1px solid #1404a0;
+}
+.banner-btn-right img{
+    width: 16px;
+    height: 16px;
 }
