@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Google fonts  */
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+}
+/*  */
+.fixed-width{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.navigation {
+    background-color: #f8f9fa;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px 16px 0px; 
+    border: 1px solid red;  
+}
+
+.navigation img{
+    width: 139px;
+    height: 60px;
+}
+
+.navigation ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+}
+.btn{
+    background-color: #469165;
+    color: white;
+    padding: 12.5px 16px 12.5px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.btn:hover{
+    background-color: #1404a0;
+    cursor: pointer;
+}
