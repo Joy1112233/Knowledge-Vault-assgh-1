@@ -168,3 +168,44 @@
     color:#001931;
     font-size: 24px;
 }
+/* end card section */
+
+/* start knowledge section */
+
+#knowledge{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+#knowledge .knowledge-img  img{
+    width: 600px;
+    height: 600px;
+}
+
+.knowledge-content{
+    padding-left: 70px;
+}
+.knowledge-content-p{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #469165;
+}
+.knowledge-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.knowledge-content-description{
+    color: #627382;
+    padding-top: 16px;
+}
+.knowledge-checkCircle{
+    padding-top: 40px;
+}
+.knowledge-checkCircle div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 16px;
+}
